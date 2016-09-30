@@ -1,0 +1,85 @@
+<div id="order">
+<header>
+    新鲜预订
+</header>
+<div class=" main">
+    <ul class="list">
+        <li><span class="click">精选水果</span></li>
+        <li><span>直供蔬菜</span></li>
+        <li><span>水产海鲜</span></li>
+        <li><span>肉禽蛋</span></li>
+        <li><span>乳品烘焙</span></li>
+        <li><span>熟食面点</span></li>
+        <li><span>粮油副食</span></li>
+        <li><span>酒水饮料</span></li>
+        <li><span>休闲零食</span></li>
+        <li><span>整箱购</span></li>
+    </ul>
+
+    <div class="product">
+        <p><span>精选水果</span></p>
+        <ul class="productlist">
+            <!--<li>-->
+                <!--<div class="image"><img src="images/freshItem1.png"/></div>-->
+                <!--<div class="text">-->
+                    <!--<div class="title">[次日达]禧美阿拉斯加狭鳕片500g</div>-->
+                    <!--<div class="price"><span>¥</span>28</div>-->
+                    <!--<div class="cart"></div>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="image"><img src="images/freshItem2.png"/></div>-->
+                <!--<div class="text">-->
+                    <!--<div class="title">[次日达]禧美阿拉斯加狭鳕片500g</div>-->
+                    <!--<div class="price"><span>¥</span>28</div>-->
+                    <!--<div class="cart"></div>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="image"><img src="images/freshItem3.png"/></div>-->
+                <!--<div class="text">-->
+                    <!--<div class="title">[次日达]禧美阿拉斯加狭鳕片500g</div>-->
+                    <!--<div class="price"><span>¥</span>28</div>-->
+                    <!--<div class="cart"></div>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="image"><img src="images/freshItem4.png"/></div>-->
+                <!--<div class="text">-->
+                    <!--<div class="title">[次日达]禧美阿拉斯加狭鳕片500g</div>-->
+                    <!--<div class="price"><span>¥</span>28</div>-->
+                    <!--<div class="cart"></div>-->
+                <!--</div>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<div class="image"><img src="images/freshItem5.png"/></div>-->
+                <!--<div class="text">-->
+                    <!--<div class="title">[次日达]禧美阿拉斯加狭鳕片500g</div>-->
+                    <!--<div class="price"><span>¥</span>28</div>-->
+                    <!--<div class="cart"></div>-->
+                <!--</div>-->
+            <!--</li>-->
+        </ul>
+        <script id="t:_1234-abcd-1" type="text/html">
+            <%if(product.length>0){%>
+            <%for(var i=0;i<product.length;i++){%>
+            <li>
+                <div class="image"><img src=<%=product[i].img%> /></div>
+                <div class="text">
+                    <div class="title"><%=product[i].name%></div>
+                    <div class="size"><%=product[i].specifics%></div>
+                    <div class="price">
+                        <span class="currentprice">¥<span><%=product[i].price%></span></span>
+                        <span class="beforeprice">¥<span><%=product[i].market_price%></span></span>
+                    </div>
+                    <div class="cart"></div>
+                </div>
+            </li>
+            <%}%>
+            <%}else{%>
+            <p>暂时无数据！！</p>
+            <%}%>
+        </script>
+    </div>
+</div>
+</div>

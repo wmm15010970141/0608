@@ -1,0 +1,65 @@
+#myorder header {
+    width: 10rem;
+    height: 1.40625rem;
+    background-color: #f9fafd;
+    line-height: 1.40625rem;
+}
+#myorder header span {
+    float: left;
+}
+#myorder header .back {
+    width: 1.875rem;
+    height: 1.40625rem;
+    background: url("../../images/list_left.png") no-repeat 0.3125rem 0.3125rem;
+    background-size: 0.625rem 0.78125rem;
+}
+#myorder header .title {
+    width: 5.5rem;
+    line-height: 1.40625rem;
+    font-size: 0.375rem;
+    font-weight: 700;
+    text-align: center;
+}
+#myorder header .refresh {
+    width: 2.5rem;
+    height: 1.40625rem;
+    background: url("../../images/refresh.png") no-repeat 1.40625rem 0.3125rem;
+    background-size: 0.78125rem 0.78125rem;
+}
+#myorder .main .ordertype {
+    height: 1.40625rem;
+    border: 0.03125rem solid #cccccc;
+    font-size: 0.375rem;
+}
+#myorder .main .ordertype li {
+    text-align: center;
+    width: 20%;
+    float: left;
+    height: 1.40625rem;
+    line-height: 1.40625rem;
+}
+#myorder .main .ordertype li span {
+    display: inline-block;
+    height: 1.40625rem;
+    line-height: 1.40625rem;
+}
+#myorder .main .ordertype .click {
+    color: #ff3800 ;
+    border-bottom: 0.0625rem solid #ff3800;
+}
+#myorder .main .content {
+    height: 14.875rem;
+    background-color: #efefef;
+    padding: 3.75rem 0;
+}
+#myorder .main .content .noorder {
+    background: url("../../images/noorder.png") no-repeat 0.15625rem 0;
+    background-size: 2.8125rem 2.8125rem;
+    width: 3.625rem;
+    height: 3.6875rem;
+    margin: 0 auto;
+    font-size: 0.375rem;
+    line-height: 6.5rem;
+    text-align: center;
+    color: #777;
+}

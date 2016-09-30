@@ -1,0 +1,183 @@
+ #cart .title {
+    width: 100%;
+    height: 1.40625rem;
+    background-color: #f9fafd;
+    text-align: center;
+    line-height: 1.40625rem;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0.4375rem;
+    font-weight: bold;
+}
+#cart #box {
+    position: absolute;
+    top: 1.40625rem;
+    bottom: 1.40625rem;
+    overflow: auto;
+    width: 10rem;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+}
+#cart #box .location {
+    width: 100%;
+    height: 1.53125rem;
+    background-color: #fff;
+    line-height: 1.53125rem;
+}
+#cart #box .location p {
+    color: orangered;
+    font-weight: bold;
+    margin-left: 0.546875rem;
+    font-size: 0.46875rem;
+}
+#cart #box .main {
+    width: 100%;
+    background-color: #fff;
+    margin-top: 0.3125rem;
+}
+#cart #box .main .notice {
+    height: 1.75rem;
+    border-bottom: 1px solid #e0e0e0;
+    color: #999;
+    padding-top: 0.3125rem;
+    box-sizing: border-box;
+}
+#cart #box .main .notice h3 {
+    font-size: 0.40625rem;
+    margin: 0 0.46875rem 0.3125rem;
+    font-weight: normal;
+}
+#cart #box .main .notice h3 span {
+    display: inline-block;
+    background-color: #ffd600;
+    width: 0.125rem;
+    height: 0.359375rem;
+    border: 1px solid #ffd600;
+    border-radius: 0.125rem;
+    margin-right: 0.15625rem;
+}
+#cart #box .main .notice p {
+    font-size:0.375rem;
+    text-align: center;
+}
+#cart #box .main .receive_time {
+    height: 1.5625rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 0.46875rem;
+}
+#cart #box .main .receive_time div {
+    display: inline-block;
+    font-size: 0.46875rem;
+    line-height: 1.5625rem;
+    margin-right: 0.3125rem;
+}
+#cart #box .main .receive_time :last-of-type {
+    float: right;
+}
+#cart #box .main .orange_red {
+    color: orangered!important;
+}
+#cart #box .main .receive_remind {
+    height: 1.5625rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 0.46875rem;
+    font-size: 0.46875rem;
+}
+#cart #box .main .receive_remind div {
+    display: inline-block;
+    line-height: 1.5625rem;
+}
+#cart #box .main .receive_remind div input[type=text] {
+    height: 0.9375rem;
+    width: 6.484375rem;
+    border: 1px solid #999;
+    border-radius: 0.234375rem;
+    padding-left: 0.3125rem;
+    font-size: 0.46875rem;
+    box-sizing: border-box;
+}
+#cart #box .main .things {
+    height: 2.59375rem;
+    border-bottom: 0.03125rem solid #e0e0e0;
+}
+#cart #box .main .things div {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0.15625rem;
+}
+#cart #box .main .things .things_list .tick {
+    width: 0.625rem;
+    height: 0.625rem;
+    border: 0.03125rem solid #c0c0c0;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0;
+    margin-left: 0.3125rem;
+}
+#cart #box .main .things .things_list .tick img {
+    width: 0.625rem;
+    height: 0.625rem;
+}
+#cart #box .main .things .things_list .thing_img img {
+    width: 0.96875rem;
+    height: 1.5625rem;
+}
+#cart #box .main .things .things_list .things_text p {
+    font-size: 0.5625rem;
+    margin-top: 0.3125rem;
+}
+#cart #box .main .things .things_list .changeNum {
+    margin-top: 1.25rem;
+    width: 2.578125rem;
+    height: 1.0625rem;
+    font-size: 0.5625rem;
+}
+#cart #box .main .things .things_list .changeNum img {
+    width: 0.9375rem;
+    height: 0.96875rem;
+}
+#cart #box .main .things .things_list .changeNum p {
+    display: inline-block;
+    width: 0.078125rem;
+    height: 0.96875rem;
+    vertical-align: middle;
+}
+#cart #box .main .total {
+    height: 1.5625rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+#cart #box .main .total div {
+    display: inline-block;
+    line-height: 1.5625rem;
+    vertical-align: middle;
+    clear: both;
+    font-size: 0.5625rem;
+}
+#cart #box .main .total .tick {
+    width: 0.625rem;
+    height: 0.625rem;
+    border: 0.03125rem solid #c0c0c0;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0;
+    margin-left: 0.3125rem;
+    margin-right: -0.3125rem;
+}
+#cart #box .main .total .tick img {
+    width: 0.625rem;
+    height: 0.625rem;
+    position: relative;
+    top: -0.15625rem;
+}
+#cart #box .main .total .selectAll {
+    margin-left: 0.46875rem;
+}
+#cart #box .main .total .trueAll {
+    float: right;
+    height: 1.5625rem;
+    width: 3.125rem;
+    background-color: #ffd600;
+    text-align: center;
+}

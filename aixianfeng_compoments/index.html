@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta charset="UTF-8">
+    <title>爱鲜蜂</title>
+    <style>
+        .container{
+            width: 10rem;
+            height: 16.34375rem;
+            margin: 0 auto;
+        }
+        .tabBar {
+            width: 10rem;
+            border-top: 1px solid #e0e0e0;
+            position: fixed;
+            height: 1.5625rem;
+            bottom: 0;
+            font-size: 0;
+            background-color: rgba(246, 246, 246, 0.95);
+        }
+        .tabBar li {
+            display: inline-block;
+            width: 2rem;
+            height: 1.5625rem;
+            font-size: 0.375rem;
+            padding: 0.109375rem 0;
+            -webkit-box-sizing: border-box;
+        }
+        .tabBar div {
+            height: 0.78125rem;
+            margin: 0 auto;
+            background-size: 0.78125rem auto;
+            margin-bottom: 0.03125rem;
+            background-repeat: no-repeat;
+            background-position: 0.5625rem;
+        }
+        .tabBar .itemIcon1 {
+            background-image: url(images/indexIcon2.png);
+        }
+        .tabBar .itemIcon2 {
+            background-image: url(images/marketIcon1.png);
+        }
+        .tabBar .itemIcon3 {
+            background-image: url(images/reserveIcon1.png);
+        }
+        .tabBar .itemIcon4 {
+            background-image: url(images/cartIcon1.png);
+        }
+        .tabBar .itemIcon5 {
+            background-image: url(images/myIcon1.png);
+        }
+        .tabBar p {
+            margin-top: 0.15625rem;
+            text-align: center;
+            font-size: 0.375rem;
+        }
+
+    </style>
+    <script src="lib/adaptor.js"></script>
+</head>
+<body>
+<div class='container'></div>
+<nav class="tabBar">
+    <ul>
+        <li class="barItem1">
+            <a href="#home"><div class="itemIcon1"></div>
+            <p>首页</p></a>
+        </li>
+        <li class="barItem2">
+            <a href="#store"><div class="itemIcon2"></div>
+            <p>闪送超市</p></a>
+        </li>
+        <li class="barItem3">
+            <a href="#order"><div class="itemIcon3"></div>
+            <p>新鲜预定</p></a>
+        </li>
+        <li class="barItem4">
+            <a href="#cart"><div class="itemIcon4"></div>
+            <p>购物车</p></a>
+        </li>
+        <li class="barItem5">
+            <a href="#mine"><div class="itemIcon5"></div>
+            <p>我的</p></a>
+        </li>
+    </ul>
+</nav>
+<script src="lib/require.js" data-main="app.js"></script>
+</body>
+</html>

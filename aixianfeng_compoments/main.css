@@ -1,0 +1,38 @@
+html,
+body,
+div,
+p,
+span,
+a,
+header,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+section,
+img,
+input,
+ul,
+li,
+nav {
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+    height: 100%;
+    color: #333;
+    overflow: hidden;
+    font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", Helvetica, Arial, Verdana, sans-serif, 'Microsoft Yahei', Simsun;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+ul,
+li {
+    list-style: none;
+}

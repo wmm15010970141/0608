@@ -1,0 +1,105 @@
+ #order header {
+    width: 10rem;
+    height: 1.40625rem;
+    background-color: #f9fafd ;
+    text-align: center;
+    font-size: 0.5rem;
+    font-weight: 700;
+    line-height: 1.40625rem;
+}
+ #order .main {
+    position: absolute;
+    top: 1.40625rem;
+    bottom: 1.40625rem;
+    overflow: auto;
+}
+ #order .main .list {
+    font-size: 0;
+    border-top: 0.3125rem solid #e0e0e0;
+    border-bottom: 0.3125rem solid #e0e0e0;
+}
+ #order .main .list li {
+    display: inline-block;
+    width: 20%;
+    height: 1.09375rem;
+    line-height: 1.09375rem;
+    text-align: center;
+    font-size: 0.375rem;
+    border-bottom: 0.03125rem solid #cccccc;
+    color: #777;
+}
+ #order .main .list li span {
+    display: inline-block;
+    height: 1.0625rem;
+    line-height: 1.09375rem;
+}
+ #order .main .list li .click {
+    border-bottom: 0.03125rem solid #333333;
+    color: #333;
+}
+ #order .main .product p {
+    height: 0.9375rem;
+    border: 0.03125px solid #cccccc;
+    font-size: 0.375rem;
+    line-height: 0.9375rem;
+    text-indent: 0.3125rem;
+}
+ #order .main .product p span {
+    display: inline-block;
+    height: 0.46875rem;
+    line-height: 0.46875rem;
+    padding-left: 0.15625rem;
+    border-left: 0.15625rem solid #2bb1fa;
+    color: #777;
+}
+ #order .main .product li {
+    height: 3.75rem;
+    padding: 0.46875rem 0.3125rem 0.78125rem;
+    border-bottom: 0.03125rem solid #cccccc;
+    box-sizing: border-box;
+}
+ #order .main .product li .image {
+    width: 3.125rem;
+    height: 2.8125rem;
+    float: left;
+    margin-right: 0.78125rem;
+}
+ #order .main .product li .image img {
+    width: 100%;
+    height: 100%;
+}
+ #order .main .product li .text {
+    float: left;
+    width: 4.375rem;
+    font-size: 0.375rem;
+    position: relative;
+}
+ #order .main .product li .text .title {
+    line-height: 0.7rem;
+    color: #777;
+    height: 1.4rem;
+}
+ #order .main .product li .text .size{
+     color: #777;
+     line-height: 0.7rem;
+ }
+ #order .main .product li .text .price {
+    font-weight: 900;
+    color: red;
+    font-size: 0.5rem;
+}
+ #order .main .product li .text .beforeprice{
+     font-weight: 400;
+     color: #999;
+     font-size: 0.375rem;
+     text-decoration: line-through;
+ }
+ #order .main .product li .text .cart {
+    width: 1.25rem;
+    height: 1.25rem;
+    left: 3.4375rem;
+    bottom: -0.15625rem;
+    position: absolute;
+    background: url("../../images/cartRed.png");
+    background-size: 1.25rem 1.25rem;
+}

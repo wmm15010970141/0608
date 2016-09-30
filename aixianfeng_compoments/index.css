@@ -1,0 +1,48 @@
+.container{
+
+}
+.tabBar {
+    width: 10rem;
+    border-top: 1px solid #e0e0e0;
+    position: fixed;
+    height: 1.5625rem;
+    bottom: 0;
+    font-size: 0;
+    background-color: rgba(246, 246, 246, 0.95);
+}
+.tabBar li {
+    display: inline-block;
+    width: 2rem;
+    height: 1.5625rem;
+    font-size: 0.375rem;
+    padding: 0.109375rem 0;
+    -webkit-box-sizing: border-box;
+}
+.tabBar div {
+    height: 0.78125rem;
+    margin: 0 auto;
+    background-size: 0.78125rem auto;
+    margin-bottom: 0.03125rem;
+    background-repeat: no-repeat;
+    background-position: 0.5625rem;
+}
+.tabBar .itemIcon1 {
+    background-image: url(images/indexIcon2.png);
+}
+.tabBar .itemIcon2 {
+    background-image: url(images/marketIcon1.png);
+}
+.tabBar .itemIcon3 {
+    background-image: url(images/reserveIcon1.png);
+}
+.tabBar .itemIcon4 {
+    background-image: url(images/cartIcon1.png);
+}
+.tabBar .itemIcon5 {
+    background-image: url(images/myIcon1.png);
+}
+.tabBar p {
+    margin-top: 0.15625rem;
+    text-align: center;
+    font-size: 0.375rem;
+}
